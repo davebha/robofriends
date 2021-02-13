@@ -10,6 +10,16 @@ const Card=()=>{
         <h2>Jane Doe</h2>
         <p>Jane Doe @email.com</p>
        </div>
+       <img alt='robots' src='https://robohash.org/newfriend'/>
+       <div>
+        <h2>Jane Doe</h2>
+        <p>Jane Doe @email.com</p>
+       </div>
+       <img alt='robots' src='https://robohash.org/newfriend'/>
+       <div>
+        <h2>Jane Doe</h2>
+        <p>Jane Doe @email.com</p>
+       </div>
       </div>
       
     );
