@@ -5,7 +5,7 @@ const Card=()=>{
 
   return(
       <div>
-       <img alt='robots' src=''/>
+       <img alt='robots' src='https://robohash.org/newfriend'/>
        <div>
         <h2>Jane Doe</h2>
         <p>Jane Doe @email.com</p>
