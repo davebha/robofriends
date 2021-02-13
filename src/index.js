@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*Import card.js here*/
-import Card from './Card'
+import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 
 ReactDOM.render(
   <React.StrictMode>
-  {/*Declare card component*/}
-    <Card />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
