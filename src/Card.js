@@ -1,25 +1,15 @@
 import React from 'react'
 
 /*Implement card function*/
-const Card=()=>{
+const Card=(props)=>{
 
   return(
-      <div>
-       <img alt='robots' src='https://robohash.org/newfriend'/>
-       <div>
-        <h2>Jane Doe</h2>
-        <p>Jane Doe @email.com</p>
-       </div>
-       <img alt='robots' src='https://robohash.org/newfriend'/>
-       <div>
-        <h2>Jane Doe</h2>
-        <p>Jane Doe @email.com</p>
-       </div>
-       <img alt='robots' src='https://robohash.org/newfriend'/>
-       <div>
-        <h2>Jane Doe</h2>
-        <p>Jane Doe @email.com</p>
-       </div>
+      <div className='tc bg-light-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+         <img alt='robots' src={`https://robohash.org/${props.id}?200x200`}/>
+         <div>
+          <h2>{props.name}</h2>
+          <p>{props.email}</p>
+         </div>
       </div>
       
     );
