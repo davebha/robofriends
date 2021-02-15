@@ -6,6 +6,7 @@ const App = ()=>{
 	return(
 			<div>
 				<h1>Robofriends</h1>
+				<Searchbox />
 				<CardList robots={robots}/>
 			</div>
 				
