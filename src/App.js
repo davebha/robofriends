@@ -5,6 +5,7 @@ import CardList from './CardList'
 const App = ()=>{
 	return(
 			<div>
+				<h1>Robofriends</h1>
 				<CardList robots={robots}/>
 			</div>
 				
