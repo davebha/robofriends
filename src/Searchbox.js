@@ -1,7 +1,10 @@
 import React from 'react'
 
 const Searchbox = ()=>{
-	return(<input type="search" placeholder="search robots" />)
+	return(
+		<div className="pa2">
+			<input type="search" placeholder="search robots" />
+		</div>)
 
 }
 
