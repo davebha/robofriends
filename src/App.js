@@ -4,7 +4,10 @@ import CardList from './CardList'
 
 const App = ()=>{
 	return(
+			<div>
 				<CardList robots={robots}/>
+			</div>
+				
 		);
 }
 
