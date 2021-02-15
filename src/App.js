@@ -7,3 +7,5 @@ const App = ()=>{
 				<CardList robots={robots}/>
 		);
 }
+
+export default App;
