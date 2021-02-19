@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CardList from './CardList'
+import Scroll from './Scroll'
 import Searchbox from './Searchbox'
 import './App.css'
 
