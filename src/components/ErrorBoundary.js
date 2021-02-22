@@ -4,7 +4,7 @@ class ErrorBoundary extends Component{
 	constructor(){
 		super();
 		this.state{
-			hasError:false;
+			hasError:false
 		}
 	}
 
@@ -12,3 +12,5 @@ class ErrorBoundary extends Component{
 
 	}
 }
+
+export default ErrorBoundary;
